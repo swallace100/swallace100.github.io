@@ -1,4 +1,4 @@
-# Steven Wallace – AI & Software Projects
+# AI & Software Projects
 [日本語はこちら](#日本語版)
 
 Welcome. This site showcases a collection of software I’ve built, ranging from AI-driven apps to other creative and technical projects.
