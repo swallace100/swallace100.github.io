@@ -1,13 +1,18 @@
-# Steven Wallace — AI Projects
+# AI and Software Projects by Steven Wallace
 [日本語はこちら](#日本語版)
 
-Welcome! Here are some of my experiments combining AI with games, tools, and Japanese culture.
+Welcome. This site showcases a collection of software I’ve built, ranging from AI-driven apps to other creative and technical projects.
 
 ---
 
-## 🎮 Thriller Game (OpenAI Agent SDK)
-**Description:** An interactive text adventure where the AI plays the role of a thriller narrator.  
+## 🎮 AI Agent Thriller Game (OpenAI Agent SDK)
+**Description** 
+An interactive text adventure where the AI plays the role of a thriller game narrator.  
+Using the OpenAI Agents SDK, this game features two AI agents that help tell a story. One agent is the narrator that interacts with the player. The other agent is a web researcher with access to the internet. The web researcher can only be contacted by the narrator agent when it needs access to real time information. The narrator agent is trained with the story background, has custom function tools, can save updates in the story log, and can conduct inventory management.
+
+There is a Jupyter Notebook version of the game that walks through the game's main processes. The main Python application with comes with both a Gradio and Streamlit UI.
 **Code:** [GitHub Repo](https://github.com/swallace100/thriller-game)  
+**Language:**
 **Demo:** (screenshot or GIF here)
 
 ---
@@ -25,7 +30,7 @@ Welcome! Here are some of my experiments combining AI with games, tools, and Jap
 ---
 
 # 日本語版
-[English version](#steven-wallace--ai-projects)
+[English version](#ai-and-software-projects-by-steven-wallace)
 
 ## 🎮 スリラーゲーム (OpenAI Agent SDK)
 **概要:** AIがナレーターとして登場するテキストアドベンチャー。  
