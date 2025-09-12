@@ -3,6 +3,11 @@
 
 Welcome. This site showcases a collection of software I’ve built, ranging from AI-driven apps to other creative and technical projects.
 
+## Table of Contents
+- [Thriller Game](#-ai-agent-thriller-game)
+- [Twitch ChatGPT Bot](#-twitch-chatgpt-bot)
+- [Seasonal Ramen Generator](#-seasonal-ramen-generator-ruby--openai)
+
 ---
 
 ## 🎮 AI Agent Thriller Game
@@ -44,9 +49,14 @@ There is a Jupyter Notebook version of the game that walks through the game's ma
 ---
 
 # 日本語版
-[English version](#ai-and-software-projects-by-steven-wallace)
+[English version](#ai--software-projects)
 
 ようこそ。このサイトでは、私が開発したソフトウェアを紹介する。AIを活用したアプリから、その他のクリエイティブや技術的なプロジェクトまで幅広く取り上げている。
+
+## 目次
+- [AI Agentのスリラーのゲーム](#-ai-agentのスリラーのゲーム)
+- [Twitch ChatGPTボット](#-twitch-chatgptボット)
+- [季節のラーメンジェネレーター](#-季節のラーメンジェネレーター-ruby--openai)
 
 ## 🎮 AI Agentのスリラーのゲーム
 
