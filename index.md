@@ -4,7 +4,7 @@
 Welcome. This site showcases a collection of software I’ve built, ranging from AI-driven apps to other creative and technical projects.
 
 ## Table of Contents
-- [Thriller Game](#-ai-agent-thriller-game)
+- [AI Agent Thriller Game](#-ai-agent-thriller-game)
 - [Twitch ChatGPT Bot](#-twitch-chatgpt-bot)
 - [Seasonal Ramen Generator](#-seasonal-ramen-generator-ruby--openai)
 
