@@ -9,10 +9,10 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [AI Agent Thriller Game](#-ai-agent-thriller-game)
 - [Twitch ChatGPT Bot](#-chatgpt-powered-twitch-bot-with-logging)
 - Seasonal Ramen Chef AI Agent (Ruby + OpenAI) - Pending
-- OpenGL Alien Abduction Scene - Pending
 - LangChain AI Agent orchestration - Pending
 - Dockerized Node.js + React.js App (with optional Rust service) - Pending
 - Cookie Persistence Utility - Pending
+- OpenGL Scene - Pending
 
 ---
 
@@ -24,7 +24,7 @@ An interactive text adventure game called Eternal Hunt where an AI agent plays t
 <br/><br/>
 Using the OpenAI Agents SDK, this game features two AI agents that help tell a story. One agent is the narrator that interacts with the player. The other agent is a web researcher with access to the internet. The web researcher can only be contacted by the narrator agent when it needs access to real time information. The narrator agent is trained with the story background, has custom function tools, can save updates in the story log, and can conduct inventory management.
 <br/><br/>
-There is a Jupyter Notebook version of the game that walks through the game's main processes. The main Python application with comes with both a Gradio and Streamlit UI.
+There is a Jupyter Notebook version of the game that walks through the game's main processes. The main Python application comes with both a Gradio and Streamlit UI.
 
 ### Code
 
@@ -100,10 +100,10 @@ This project demonstrates how to blend AI creativity with Twitch interactivity, 
 - [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
 - [季節のラーメンジェネレーター](#-季節のラーメンジェネレーター-ruby--openai)
 - 季節限定ラーメンシェフ AI エージェント（Ruby + OpenAI） - 準備中
-- OpenGL エイリアン誘拐シーン - 準備中
 - LangChain AI エージェントオーケストレーション - 準備中
 - Docker 化された Node.js + React.js アプリ（Rust サービスを追加可能） - 準備中
 - クッキー永続化ユーティリティ - 準備中
+- OpenGL シーン - 準備中
 
 ## 🎮 AI Agent のスリラーのゲーム
 
