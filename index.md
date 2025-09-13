@@ -9,7 +9,7 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [AI Agent Thriller Game](#-ai-agent-thriller-game)
 - [Twitch ChatGPT Bot](#-chatgpt-powered-twitch-bot-with-logging)
 - [Data Analysis with Python](#-data-analysis-with-python)
-- Seasonal Ramen Chef AI Agent (Ruby + OpenAI) - Pending
+- [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
 - LangChain AI Agent orchestration - Pending
 - Dockerized Node.js + React.js App (with optional Rust service) - Pending
 - Cookie Persistence Utility - Pending
@@ -112,6 +112,43 @@ It highlights a practical workflow for working with real-world data: importing, 
 
 ---
 
+## 🍜 Seasonal Ramen Chef AI Agent (Ruby + OpenAI)
+
+### Description
+
+A lightweight AI-powered web app built with Ruby and Sinatra that role-plays as a “Seasonal Ramen Chef.”
+It generates ramen recipes tailored to the current season and location, outputting structured JSON with broth, tare, noodles, toppings, garnish, and preparation steps.
+<br/><br/>
+This project highlights:
+
+- How to integrate the OpenAI API into a Ruby app
+- Using Sinatra for a minimal but functional web interface
+- Enforcing structured outputs (JSON schema) for reliable AI responses
+- A practical example of prompt-engineering and role consistency in a fun cooking context
+
+### Code
+
+[GitHub Repo](https://github.com/swallace100/data-analysis)
+
+### Tech Stack
+
+- Ruby (3.1+)
+- Sinatra
+- Puma
+- Dotenv
+- ruby-openai
+- JavaScript (vanilla for the UI)
+
+### **Screenshots:**
+
+#### Ramen Recipe and Menu
+
+![Screenshot 1](images/Seasonal_Ramen_Chef.png)
+
+<br/><br/>
+
+---
+
 # 日本語版
 
 [English version](#ai--software-projects)
@@ -123,7 +160,7 @@ It highlights a practical workflow for working with real-world data: importing, 
 - [AI Agent のスリラーのゲーム](#-ai-agent-のスリラーのゲーム)
 - [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
 - [Python を用いたデータ分析](#-python-を用いたデータ分析)
-- 季節限定ラーメンシェフ AI エージェント（Ruby + OpenAI） - 準備中
+- [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフaiエージェントruby--openai)
 - LangChain AI エージェントオーケストレーション - 準備中
 - Docker 化された Node.js + React.js アプリ（Rust サービスを追加可能） - 準備中
 - クッキー永続化ユーティリティ - 準備中
@@ -217,5 +254,42 @@ Python を活用したデータ分析プロジェクトのコレクションで�
 #### KPI ダッシュボード
 
 ![Screenshot 1](images/Supplier_Group_Kpis_Dashboard.png)
+
+<br/><br/>
+
+---
+
+## 🍜 季節のラーメンシェフ AI エージェント（Ruby + OpenAI）
+
+### 説明
+
+Ruby と Sinatra を使って構築した軽量な AI ウェブアプリで、「季節のラーメンシェフ」として役割を果たします。  
+現在の季節や地域に合わせたラーメンレシピを生成し、スープ、タレ、麺、トッピング、薬味、調理手順などを JSON 形式で出力します。  
+<br/><br/>
+このプロジェクトのポイント:
+
+- **OpenAI API** を Ruby アプリに統合する方法
+- **Sinatra** を使ったシンプルかつ機能的なウェブインターフェース
+- **JSON スキーマ** を利用して構造化された出力を保証
+- プロンプト設計と役割一貫性の実例を、楽しい料理テーマで実現
+
+### コード
+
+[GitHub リポジトリ](https://github.com/swallace100/ramen-chef-agent)
+
+### 技術スタック
+
+- Ruby (3.1+)
+- Sinatra
+- Puma
+- Dotenv
+- ruby-openai
+- JavaScript（UI はバニラ）
+
+### **スクリーンショット:**
+
+#### ウェブインターフェース
+
+![スクリーンショット 1](images/Seasonal_Ramen_Chef_jp.png)
 
 <br/><br/>
