@@ -160,7 +160,7 @@ This project highlights:
 - [AI Agent のスリラーのゲーム](#-ai-agent-のスリラーのゲーム)
 - [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
 - [Python を用いたデータ分析](#-python-を用いたデータ分析)
-- [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#季節のラーメンシェフ-ai-エージェントruby--openai)
+- [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフ-ai-エージェントruby--openai)
 - LangChain AI エージェントオーケストレーション - 準備中
 - Docker 化された Node.js + React.js アプリ（Rust サービスを追加可能） - 準備中
 - クッキー永続化ユーティリティ - 準備中
