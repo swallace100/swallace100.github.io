@@ -38,7 +38,7 @@ There is a Jupyter Notebook version of the game that walks through the game's ma
 - Gradio
 - Streamlit
 
-### **Screenshots:**
+### Screenshots
 
 #### Gradio UI Screenshot
 
@@ -51,11 +51,12 @@ There is a Jupyter Notebook version of the game that walks through the game's ma
 
 ### Description
 
-A Twitch chat bot that integrates with OpenAI’s GPT models to create jokes, stories, nicknames, trivia, and more.
+A Twitch chatbot that integrates with OpenAI’s GPT models to keep offline chat entertaining.
+It generates jokes, trivia, nicknames, micro-stories, and AI-generated images using custom prompts, while logging all chat messages by channel and date.
 <br/><br/>
-The bot was originally built with TwitchIO 2.x (IRC-based) and successfully handled offline chat interactions while logging all messages. It is currently being migrated to TwitchIO 3.1.0, which uses Twitch’s modern EventSub WebSocket system instead of IRC. This update makes the bot future-proof and aligns with Twitch’s recommended architecture.
+The bot was originally built with TwitchIO 2.x (IRC-based) and has now been fully updated to use Twitch’s modern EventSub WebSocket system, making it future-proof and aligned with Twitch’s recommended architecture.
 <br/><br/>
-The bot saves all chat messages to log files, provides a set of fun interactive commands ($About, $Joke, $Draw, $Trivia, etc.), and demonstrates how to integrate AI into Twitch community experiences.
+This project demonstrates how to blend AI creativity with Twitch interactivity, offering a lively companion when streams are offline.
 
 ### Code
 
@@ -64,14 +65,19 @@ The bot saves all chat messages to log files, provides a set of fun interactive 
 ### Tech Stack
 
 - Python
-- OpenAI API
-- TwitchIO (2.x legacy, 3.x migration in progress)
+- OpenAI API (Chat + Images)
+- Twitch EventSub WebSockets
 - dotenv
 - Requests
+- Web Sockets
 
-### Status:
+### **Screenshots:**
 
-🛠 Currently updating to TwitchIO 3.1.0 / EventSub WebSockets.
+#### Chat Responses
+
+<img src="images/Twitch_Chat_Bot.jpg" alt="Twitch Chat Bot" width="400"/>
+
+<br/><br/>
 
 ---
 
@@ -109,7 +115,7 @@ The bot saves all chat messages to log files, provides a set of fun interactive 
 <br/><br/>
 Jupyter Notebook 版では、ゲームの主な処理の流れを示している。メインの Python アプリケーションは、Gradio と Streamlit の UI を備えている。
 
-### コード:
+### コード
 
 [GitHub Repo](https://github.com/swallace100/thriller-game-ai-agent)
 
@@ -121,7 +127,7 @@ Jupyter Notebook 版では、ゲームの主な処理の流れを示している
 - Gradio
 - Streamlit
 
-### **スクリーンショット:**
+### スクリーンショット
 
 #### Gradio UI のスクリーンショット
 
@@ -131,15 +137,16 @@ Jupyter Notebook 版では、ゲームの主な処理の流れを示している
 
 ## 🤖 ChatGPT 搭載 Twitch ボット（チャットログ付き）
 
-### 概要:
+### 概要
 
-OpenAI の GPT モデルを活用し、ジョーク、ストーリー、ニックネーム、トリビアなどを生成できる Twitch チャットボット。
+OpenAI の GPT モデルを活用し、ジョーク、トリビア、ニックネーム、マイクロストーリー、AI 画像生成 を行う Twitch チャットボット。
+チャットメッセージはチャンネルごと・日付ごとにログファイルとして保存され、オフライン時でも配信の場を盛り上げる存在となる。
 <br/><br/>
-このボットは当初 TwitchIO 2.x（IRC ベース） を用いて開発され、オフラインチャットのやり取りを処理しつつ、すべてのメッセージをログに保存していた。現在は TwitchIO 3.1.0 への移行作業を進めており、IRC の代わりに Twitch の最新システムである EventSub WebSocket を利用するよう更新中。これにより、今後も利用可能な形で将来性のある設計となる。
+当初は TwitchIO 2.x（IRC ベース）を用いて構築されたが、現在は Twitch の最新システム EventSub WebSocket を利用するよう完全に更新済み。これにより、将来的にも安定して利用できる設計となっている。
 <br/><br/>
-チャットメッセージはログファイルとして保存され、$About、$Joke、$Draw、$Trivia などの楽しいインタラクティブなコマンドに対応。AI をコミュニティ体験に統合する方法を示すサンプルとしても活用できる。
+AI の創造性と Twitch のインタラクティブ性を融合させ、オフライン時でも視聴者を楽しませるコンパニオンとして機能する。
 
-### コード:
+### コード
 
 [GitHub リポジトリ](https://github.com/swallace100/ChatGPT-Powered-Twitch-Bot-With-Logging)
 
@@ -147,13 +154,17 @@ OpenAI の GPT モデルを活用し、ジョーク、ストーリー、ニッ�
 
 - Python
 - OpenAI API
-- TwitchIO（2.x レガシー版、3.x への移行作業中）
+- Twitch EventSub WebSocket
 - dotenv
 - Requests
+- WebSockets
 
-### ステータス:
+### ステータス
 
-🛠 現在 TwitchIO 3.1.0 / EventSub WebSocket へのアップデート中。
+#### チャット応答例
+
+<img src="images/Twitch_Chat_Bot.jpg" alt="Twitch Chat Bot" width="400"/>
+<br/><br/>
 
 ---
 
