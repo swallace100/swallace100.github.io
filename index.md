@@ -120,7 +120,7 @@ It highlights a practical workflow for working with real-world data: importing, 
 
 ## 目次
 
-- [AI Agent のスリラーのゲーム](#-ai-agentのスリラーのゲーム)
+- [AI Agent のスリラーのゲーム](#-ai-agent-のスリラーのゲーム)
 - [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
 - [Python を用いたデータ分析](#-python-を用いたデータ分析)
 - 季節限定ラーメンシェフ AI エージェント（Ruby + OpenAI） - 準備中
