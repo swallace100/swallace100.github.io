@@ -130,7 +130,9 @@ OpenAI の GPT モデルを活用し、ジョーク、ストーリー、ニッ�
 <br/><br/>
 チャットメッセージはログファイルとして保存され、$About、$Joke、$Draw、$Trivia などの楽しいインタラクティブなコマンドに対応。AI をコミュニティ体験に統合する方法を示すサンプルとしても活用できる。
 
-### コード: [GitHub リポジトリ](https://github.com/swallace100/ChatGPT-Powered-Twitch-Bot-With-Logging)
+### コード:
+
+[GitHub リポジトリ](https://github.com/swallace100/ChatGPT-Powered-Twitch-Bot-With-Logging)
 
 ### 技術スタック
 
