@@ -8,7 +8,11 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 
 - [AI Agent Thriller Game](#-ai-agent-thriller-game)
 - [Twitch ChatGPT Bot](#-chatgpt-powered-twitch-bot-with-logging)
-- [Seasonal Ramen Generator](#-seasonal-ramen-generator-ruby--openai)
+- Seasonal Ramen Chef AI Agent (Ruby + OpenAI) - Pending
+- OpenGL Alien Abduction Scene - Pending
+- LangChain AI Agent orchestration - Pending
+- Dockerized Node.js + React.js App (with optional Rust service) - Pending
+- Cookie Persistence Utility - Pending
 
 ---
 
@@ -89,6 +93,11 @@ The bot saves all chat messages to log files, provides a set of fun interactive 
 - [AI Agent のスリラーのゲーム](#-ai-agentのスリラーのゲーム)
 - [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
 - [季節のラーメンジェネレーター](#-季節のラーメンジェネレーター-ruby--openai)
+- 季節限定ラーメンシェフ AI エージェント（Ruby + OpenAI） - 準備中
+- OpenGL エイリアン誘拐シーン - 準備中
+- LangChain AI エージェントオーケストレーション - 準備中
+- Docker 化された Node.js + React.js アプリ（Rust サービスを追加可能） - 準備中
+- クッキー永続化ユーティリティ - 準備中
 
 ## 🎮 AI Agent のスリラーのゲーム
 
