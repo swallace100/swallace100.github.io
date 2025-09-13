@@ -7,7 +7,7 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 ## Table of Contents
 
 - [AI Agent Thriller Game](#-ai-agent-thriller-game)
-- [Twitch ChatGPT Bot](#-twitch-chatgpt-bot)
+- [Twitch ChatGPT Bot](#-chatgpt-powered-twitch-bot-with-logging)
 - [Seasonal Ramen Generator](#-seasonal-ramen-generator-ruby--openai)
 
 ---
@@ -87,7 +87,7 @@ The bot saves all chat messages to log files, provides a set of fun interactive 
 ## 目次
 
 - [AI Agent のスリラーのゲーム](#-ai-agentのスリラーのゲーム)
-- [Twitch ChatGPT ボット](#-twitch-chatgptボット)
+- [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
 - [季節のラーメンジェネレーター](#-季節のラーメンジェネレーター-ruby--openai)
 
 ## 🎮 AI Agent のスリラーのゲーム
@@ -120,10 +120,29 @@ Jupyter Notebook 版では、ゲームの主な処理の流れを示している
 
 ---
 
-## 💬 Twitch ChatGPT ボット
+## 🤖 ChatGPT 搭載 Twitch ボット（チャットログ付き）
 
-**概要:** ChatGPT を使った Twitch 用チャットボット。視聴者と雑談したり、投票を実施したりできます。  
-**コード:** [GitHub リポジトリ](https://github.com/swallace100/twitch-bot)
+### 概要:
+
+OpenAI の GPT モデルを活用し、ジョーク、ストーリー、ニックネーム、トリビアなどを生成できる Twitch チャットボット。
+<br/><br/>
+このボットは当初 TwitchIO 2.x（IRC ベース） を用いて開発され、オフラインチャットのやり取りを処理しつつ、すべてのメッセージをログに保存していた。現在は TwitchIO 3.1.0 への移行作業を進めており、IRC の代わりに Twitch の最新システムである EventSub WebSocket を利用するよう更新中。これにより、今後も利用可能な形で将来性のある設計となる。
+<br/><br/>
+チャットメッセージはログファイルとして保存され、$About、$Joke、$Draw、$Trivia などの楽しいインタラクティブなコマンドに対応。AI をコミュニティ体験に統合する方法を示すサンプルとしても活用できる。
+
+### コード: [GitHub リポジトリ](https://github.com/swallace100/ChatGPT-Powered-Twitch-Bot-With-Logging)
+
+### 技術スタック
+
+- Python
+- OpenAI API
+- TwitchIO（2.x レガシー版、3.x への移行作業中）
+- dotenv
+- Requests
+
+### ステータス:
+
+🛠 現在 TwitchIO 3.1.0 / EventSub WebSocket へのアップデート中。
 
 ---
 
