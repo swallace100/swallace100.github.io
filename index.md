@@ -8,12 +8,11 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 
 - [AI Agent Thriller Game](#-ai-agent-thriller-game)
 - [Twitch ChatGPT Bot](#-chatgpt-powered-twitch-bot-with-logging)
-- Data Analysis
+- [Data Analysis with Python](#-data-analysis-with-python)
 - Seasonal Ramen Chef AI Agent (Ruby + OpenAI) - Pending
 - LangChain AI Agent orchestration - Pending
 - Dockerized Node.js + React.js App (with optional Rust service) - Pending
 - Cookie Persistence Utility - Pending
-- OpenGL Scene - Pending
 
 ---
 
@@ -85,10 +84,11 @@ This project demonstrates how to blend AI creativity with Twitch interactivity, 
 ## 📊 Data Analysis with Python
 
 ### Description
+
 A collection of Python-based data analysis projects showcasing techniques in data cleaning, visualization, and statistical exploration.
 This repo demonstrates how to load and transform datasets, extract meaningful insights, and present findings using clear visualizations and concise summaries.
 <br/><br/>
-It highlights a practical workflow for working with real-world data: importing, preprocessing, exploring, and communicating results — essential skills for modern software engineers and AI practitioners.
+It highlights a practical workflow for working with real-world data: importing, preprocessing, exploring, and communicating results, which are essential skills for modern software engineers and AI practitioners.
 
 ### Code
 
@@ -122,12 +122,11 @@ It highlights a practical workflow for working with real-world data: importing, 
 
 - [AI Agent のスリラーのゲーム](#-ai-agentのスリラーのゲーム)
 - [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
-- [季節のラーメンジェネレーター](#-季節のラーメンジェネレーター-ruby--openai)
+- [Python を用いたデータ分析](#-python-を用いたデータ分析)
 - 季節限定ラーメンシェフ AI エージェント（Ruby + OpenAI） - 準備中
 - LangChain AI エージェントオーケストレーション - 準備中
 - Docker 化された Node.js + React.js アプリ（Rust サービスを追加可能） - 準備中
 - クッキー永続化ユーティリティ - 準備中
-- OpenGL シーン - 準備中
 
 ## 🎮 AI Agent のスリラーのゲーム
 
@@ -183,7 +182,7 @@ AI の創造性と Twitch のインタラクティブ性を融合させ、オフ
 - Requests
 - WebSockets
 
-### ステータス
+### スクリーンショット
 
 #### チャット応答例
 
@@ -192,7 +191,31 @@ AI の創造性と Twitch のインタラクティブ性を融合させ、オフ
 
 ---
 
-## 🍜 季節のラーメンジェネレーター (Ruby + OpenAI)
+## 📊 Python を用いたデータ分析
 
-**概要:** 季節に応じた食材を使ったラーメンレシピを提案します。  
-**コード:** 近日公開！
+### 概要
+
+Python を活用したデータ分析プロジェクトのコレクションで、データのクリーニング、可視化、統計的な探索 の手法を紹介しています。
+このリポジトリでは、データセットを読み込み・変換し、有益なインサイトを抽出し、明確な可視化や簡潔な要約で結果を提示する方法を示しています。
+<br/><br/>
+実際のデータに取り組む際の実践的なワークフロー（インポート、前処理、探索、結果の伝達）を強調しており、現代のソフトウェアエンジニアや AI 実務者に不可欠なスキルを体現しています。
+
+### コード
+
+[GitHub リポジトリ](https://github.com/swallace100/data-analysis)
+
+### 技術スタック
+
+- Python
+- Pandas
+- Numpy
+- Matplotlib
+- Jupyter Notebook
+
+### ステータス
+
+#### KPI ダッシュボード
+
+![Screenshot 1](images/Supplier_Group_Kpis_Dashboard.png)
+
+<br/><br/>
