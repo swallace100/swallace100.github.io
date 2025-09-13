@@ -8,6 +8,7 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 
 - [AI Agent Thriller Game](#-ai-agent-thriller-game)
 - [Twitch ChatGPT Bot](#-chatgpt-powered-twitch-bot-with-logging)
+- Data Analysis
 - Seasonal Ramen Chef AI Agent (Ruby + OpenAI) - Pending
 - LangChain AI Agent orchestration - Pending
 - Dockerized Node.js + React.js App (with optional Rust service) - Pending
@@ -81,10 +82,33 @@ This project demonstrates how to blend AI creativity with Twitch interactivity, 
 
 ---
 
-## 🍜 Seasonal Ramen Generator (Ruby + OpenAI)
+## 📊 Data Analysis with Python
 
-**Description:** Suggests ramen recipes based on the current season and seasonal Japanese ingredients.  
-**Code:** Coming soon!
+### Description
+A collection of Python-based data analysis projects showcasing techniques in data cleaning, visualization, and statistical exploration.
+This repo demonstrates how to load and transform datasets, extract meaningful insights, and present findings using clear visualizations and concise summaries.
+<br/><br/>
+It highlights a practical workflow for working with real-world data: importing, preprocessing, exploring, and communicating results — essential skills for modern software engineers and AI practitioners.
+
+### Code
+
+[GitHub Repo](https://github.com/swallace100/data-analysis)
+
+### Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+### **Screenshots:**
+
+#### KPI Dashboard
+
+![Screenshot 1](images/Supplier_Group_Kpis_Dashboard.png)
+
+<br/><br/>
 
 ---
 
