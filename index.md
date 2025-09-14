@@ -10,9 +10,8 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [Twitch ChatGPT Bot](#-chatgpt-powered-twitch-bot-with-logging)
 - [Data Analysis with Python](#-data-analysis-with-python)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
-- LangChain AI Agent orchestration - Pending
-- Dockerized Node.js + React.js App (with optional Rust service) - Pending
-- Cookie Persistence Utility - Pending
+- [Stats Utility App (Node + React + Rust + Python + Docker) - In Progress](#-stas-utility-app-node--react--rust--python--docker)
+- LangChain contributions - Pending
 
 ---
 
@@ -149,6 +148,44 @@ This project highlights:
 
 ---
 
+## 📊 Stats Utility App (Node + React + Rust + Python + Docker)
+
+### Description
+
+Description
+
+A containerized full-stack stats toolkit that makes data analysis faster and easier.
+Users can upload datasets, run descriptive and inferential tests (t-tests, chi-square, ANOVA, regression), and instantly get clean tables, APA-style write-ups, and high-quality matplotlib visualizations.
+<br/><br/>
+This project highlights:
+- A polyglot architecture: Node.js backend, React frontend, Rust microservice for high-performance calculations, and Python microservice for plotting
+- Cross-service communication with Docker Compose for easy orchestration
+- Shared type contracts (Zod/pydantic) to keep outputs reproducible and verifiable
+- Real-world utility for coursework and research: automated summaries + exportable reports
+
+### Code
+
+[GitHub Repo](https://github.com/swallace100/stats-utility-app)
+
+### Tech Stack
+
+- React (Vite/Next) + Tailwind
+- Node.js (TypeScript, Fastify/Express)
+- Rust (Axum/Actix, numeric kernels)
+- Python (FastAPI + Matplotlib)
+- PostgreSQL + Redis (storage + jobs)
+- Docker + Docker Compose
+
+### **Screenshots:**
+
+#### Ramen Recipe and Menu
+
+Descriptive Stats and Visualization - Pending
+
+<br/><br/>
+
+---
+
 # 日本語版
 
 [English version](#ai--software-projects)
@@ -161,9 +198,8 @@ This project highlights:
 - [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
 - [Python を用いたデータ分析](#-python-を用いたデータ分析)
 - [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフ-ai-エージェントruby--openai)
-- LangChain AI エージェントオーケストレーション - 準備中
-- Docker 化された Node.js + React.js アプリ（Rust サービスを追加可能） - 準備中
-- クッキー永続化ユーティリティ - 準備中
+- [Docker 化された Node.js + React.js アプリ（Rust サービスを追加可能](-統計ユーティリティアプリ-Node--React--Rust--Python--Docker)
+- LangChainの貢献 - 準備中
 
 ## 🎮 AI Agent のスリラーのゲーム
 
@@ -291,5 +327,39 @@ Ruby と Sinatra を使って構築した軽量な AI ウェブアプリで、�
 #### ウェブインターフェース
 
 ![スクリーンショット 1](images/Seasonal_Ramen_Chef_jp.jpg)
+
+<br/><br/>
+
+---
+
+## 📊 統計ユーティリティアプリ (Node + React + Rust + Python + Docker)
+
+### 概要
+
+データ分析をより速く、簡単にするためのコンテナ化フルスタック統計ツールです。
+ユーザーはデータセットをアップロードし、記述統計や推測統計（t検定、カイ二乗検定、ANOVA、回帰分析など）を実行し、整った表、APAスタイルの結果文、そして高品質な matplotlib グラフを即座に得ることができます。
+<br/><br/>
+このプロジェクトの特徴:
+- Node.js バックエンド、React フロントエンド、高速計算用の Rust マイクロサービス、可視化用の Python マイクロサービスによるポリグロット構成
+- Docker Compose によるクロスサービス通信と容易なオーケストレーション
+- 出力の再現性と検証性を保つための共有型定義（Zod / pydantic）
+- 授業や研究に実用的：自動生成された要約とエクスポート可能なレポート
+
+### コード
+
+[GitHub リポジトリ](https://github.com/swallace100/stats-utility-app)
+
+### 技術スタック
+
+- React (Vite/Next) + Tailwind
+- Node.js (TypeScript, Fastify/Express)
+- Rust (Axum/Actix, 数値計算カーネル)
+- Python (FastAPI + Matplotlib)
+- PostgreSQL + Redis (ストレージ + ジョブ管理)
+- Docker + Docker Compose
+
+### ステータス
+
+#### 記述統計と可視化　－　準備中
 
 <br/><br/>
