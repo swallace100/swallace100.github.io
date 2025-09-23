@@ -11,7 +11,7 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [Data Analysis with Python](#-data-analysis-with-python)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
 - [Stats Utility App (Node + React + Rust + Python + Docker) - In Progress](#-stas-utility-app-node--react--rust--python--docker)
-- LangChain contributions - Pending
+- Custom-trained Llama agents orchestrated with LangChain - Pending
 
 ---
 
@@ -158,6 +158,7 @@ A containerized full-stack stats toolkit that makes data analysis faster and eas
 Users can upload datasets, run descriptive and inferential tests (t-tests, chi-square, ANOVA, regression), and instantly get clean tables, APA-style write-ups, and high-quality matplotlib visualizations.
 <br/><br/>
 This project highlights:
+
 - A polyglot architecture: Node.js backend, React frontend, Rust microservice for high-performance calculations, and Python microservice for plotting
 - Cross-service communication with Docker Compose for easy orchestration
 - Shared type contracts (Zod/pydantic) to keep outputs reproducible and verifiable
@@ -178,7 +179,7 @@ This project highlights:
 
 ### **Screenshots:**
 
-#### Ramen Recipe and Menu
+#### Statistics Visualization
 
 Descriptive Stats and Visualization - Pending
 
@@ -199,7 +200,7 @@ Descriptive Stats and Visualization - Pending
 - [Python を用いたデータ分析](#-python-を用いたデータ分析)
 - [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフ-ai-エージェントruby--openai)
 - [Docker 化された Node.js + React.js アプリ（Rust サービスを追加可能](-統計ユーティリティアプリ-Node--React--Rust--Python--Docker)
-- LangChainの貢献 - 準備中
+- カスタム学習した Llama エージェントを LangChain でオーケストレーション - 準備中
 
 ## 🎮 AI Agent のスリラーのゲーム
 
@@ -337,9 +338,10 @@ Ruby と Sinatra を使って構築した軽量な AI ウェブアプリで、�
 ### 概要
 
 データ分析をより速く、簡単にするためのコンテナ化フルスタック統計ツールです。
-ユーザーはデータセットをアップロードし、記述統計や推測統計（t検定、カイ二乗検定、ANOVA、回帰分析など）を実行し、整った表、APAスタイルの結果文、そして高品質な matplotlib グラフを即座に得ることができます。
+ユーザーはデータセットをアップロードし、記述統計や推測統計（t 検定、カイ二乗検定、ANOVA、回帰分析など）を実行し、整った表、APA スタイルの結果文、そして高品質な matplotlib グラフを即座に得ることができます。
 <br/><br/>
 このプロジェクトの特徴:
+
 - Node.js バックエンド、React フロントエンド、高速計算用の Rust マイクロサービス、可視化用の Python マイクロサービスによるポリグロット構成
 - Docker Compose によるクロスサービス通信と容易なオーケストレーション
 - 出力の再現性と検証性を保つための共有型定義（Zod / pydantic）
