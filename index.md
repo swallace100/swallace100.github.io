@@ -230,7 +230,7 @@ Researcher -> Writer -> Pipeline - Pending
 - [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
 - [Python を用いたデータ分析](#-python-を用いたデータ分析)
 - [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフ-ai-エージェントruby--openai)
-- [📊 統計ユーティリティアプリ (Node + React + Rust + Python + Docker) – 開発中](#-統計ユーティリティアプリ-node--react--rust--python--docker---開発中)
+- [統計ユーティリティアプリ (Node + React + Rust + Python + Docker) – 開発中](#-統計ユーティリティアプリ-node--react--rust--python--docker--開発中)
 - [カスタム学習した Llama エージェントを LangChain でオーケストレーション - 開発中](#-カスタム学習-llama-エージェントと-langchain-によるオーケストレーション--準備中)
 
 ## 🎮 AI Agent のスリラーのゲーム
