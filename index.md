@@ -10,8 +10,8 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [Twitch ChatGPT Bot](#-chatgpt-powered-twitch-bot-with-logging)
 - [Data Analysis with Python](#-data-analysis-with-python)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
-- [Stats Utility App (Node + React + Rust + Python + Docker) - In Progress](#-stas-utility-app-node--react--rust--python--docker)
-- [Custom-trained Llama agents orchestrated with LangChain - Pending](#-custom--trained-llama-agents-orchestrated-with-langchain--pending)
+- [Stats Utility App (Node + React + Rust + Python + Docker) - In Progress](#-stats-utility-app-node--react--rust--python--docker)
+- [Custom-trained Llama agents orchestrated with LangChain - Pending](#-custom-trained-llama-agents-orchestrated-with-langchain--pending)
 
 ---
 
@@ -230,8 +230,8 @@ Researcher -> Writer -> Pipeline - Pending
 - [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
 - [Python を用いたデータ分析](#-python-を用いたデータ分析)
 - [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフ-ai-エージェントruby--openai)
-- [Docker 化された Node.js + React.js アプリ（Rust サービスを追加可能](-統計ユーティリティアプリ-Node--React--Rust--Python--Docker)
-- カスタム学習した Llama エージェントを LangChain でオーケストレーション - 準備中
+- [Docker 化された Node.js + React.js アプリ（Rust サービスを追加可能](#-統計ユーティリティアプリ-node--react--rust--python--docker)
+- [カスタム学習した Llama エージェントを LangChain でオーケストレーション - 準備中](#-カスタム学習-llama-エージェントと-langchain-によるオーケストレーション--準備中)
 
 ## 🎮 AI Agent のスリラーのゲーム
 
