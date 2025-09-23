@@ -11,7 +11,7 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [Data Analysis with Python](#-data-analysis-with-python)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
 - [Stats Utility App (Node + React + Rust + Python + Docker) - In Progress](#-stas-utility-app-node--react--rust--python--docker)
-- Custom-trained Llama agents orchestrated with LangChain - Pending
+- [Custom-trained Llama agents orchestrated with LangChain - Pending](#-custom--trained-llama-agents-orchestrated-with-langchain--pending)
 
 ---
 
@@ -187,6 +187,37 @@ Descriptive Stats and Visualization - Pending
 
 ---
 
+## 🤖 Custom-trained Llama Agents Orchestrated with LangChain – Pending
+
+### Description
+
+A multi-agent system powered by custom-trained Llama models, orchestrated using LangChain.
+<br/><br/>
+The workflow consists of three specialized agents: a Researcher that gathers and organizes information, a Writer that produces clear and coherent text, and an Editor that fact-checks and refines the output. This pipeline can be applied to a wide variety of tasks, such as producing accurate reports, summarizing the latest news about a specific stock, or generating knowledge articles for a help desk.
+<br/><br/>
+By combining fine-tuned specialist models with LangChain orchestration, this project demonstrates how AI agents can collaborate to deliver higher quality, more reliable results than a single model working alone.
+
+### Code
+
+[GitHub Repo](https://github.com/swallace100/Custom-Llama-Agents-on-LangChain)
+
+### Tech Stack
+
+- Python
+- Llama 3 (LoRA fine-tuning)
+- LangChain
+- FAISS (vector search)
+- Streamlit
+
+### Screenshots
+
+#### Research and Output screenshot
+
+Researcher -> Writer -> Pipeline - Pending
+<br/><br/>
+
+---
+
 # 日本語版
 
 [English version](#ai--software-projects)
@@ -286,7 +317,7 @@ Python を活用したデータ分析プロジェクトのコレクションで�
 - Matplotlib
 - Jupyter Notebook
 
-### ステータス
+### スクリーンショット
 
 #### KPI ダッシュボード
 
@@ -323,7 +354,7 @@ Ruby と Sinatra を使って構築した軽量な AI ウェブアプリで、�
 - ruby-openai
 - JavaScript（UI はバニラ）
 
-### **スクリーンショット:**
+### スクリーンショット
 
 #### ウェブインターフェース
 
@@ -360,8 +391,36 @@ Ruby と Sinatra を使って構築した軽量な AI ウェブアプリで、�
 - PostgreSQL + Redis (ストレージ + ジョブ管理)
 - Docker + Docker Compose
 
-### ステータス
+### スクリーンショット
 
 #### 記述統計と可視化　－　準備中
+
+<br/><br/>
+
+## 🤖 カスタム学習 Llama エージェントと LangChain によるオーケストレーション – 準備中
+
+### 概要
+
+カスタム学習した Llama モデルを活用し、LangChain でオーケストレーションしたマルチエージェントシステムです。
+<br/><br/>
+ワークフローは 3 つの専門エージェントで構成されています。リサーチャーが情報を収集・整理し、ライターが分かりやすく一貫性のある文章を生成し、エディターが事実確認と推敲を行います。このパイプラインにより、特定の株に関する最新ニュースの要約や正確なレポート作成、ヘルプデスク記事の生成など、幅広いタスクに対応できます。
+<br/><br/>
+専門的に調整されたモデルと LangChain の連携により、単一モデルでは実現が難しい、高品質で信頼性の高いアウトプットを生成できることを実証します。
+
+### コード
+
+[GitHub リポジトリ](https://github.com/swallace100/Custom-Llama-Agents-on-LangChain)
+
+### 技術スタック
+
+- Python
+- Llama 3 (LoRA ファインチューニング)
+- LangChain
+- FAISS（ベクトル検索）
+- Streamlit
+
+### スクリーンショット
+
+#### パイプライン　－　準備中
 
 <br/><br/>
