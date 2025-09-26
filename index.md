@@ -1,6 +1,6 @@
 # AI & Software Projects
 
-[日本語はこちら](#日本語版)
+<h2>[日本語はこちら](#日本語版)</h2>
 
 Welcome. This site showcases a collection of software I’ve built, ranging from AI-driven apps to other creative and technical projects.
 
@@ -220,7 +220,7 @@ Researcher -> Writer -> Pipeline - Pending
 
 # 日本語版
 
-[English version](#ai--software-projects)
+<h2>[English version](#ai--software-projects)</h2>
 
 ようこそ。このサイトでは、私が開発したソフトウェアを紹介する。AI を活用したアプリから、その他のクリエイティブや技術的なプロジェクトまで幅広く取り上げている。
 
