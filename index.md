@@ -11,7 +11,7 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [Data Analysis with Python](#-data-analysis-with-python)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
 - [Stats Utility App (Node + React + Rust + Python + Docker) - In Progress](#-stats-utility-app-node--react--rust--python--docker)
-- [Custom-trained Phi-3 agents orchestrated with LangChain - Pending](#-custom-trained-phi--3-agents-orchestrated-with-langchain--pending)
+- [Custom-trained Phi-3 agents orchestrated with LangChain - Pending](#-custom-trained-phi-3-agents-orchestrated-with-langchain--pending)
 
 ---
 
@@ -231,7 +231,7 @@ Researcher -> Writer -> Pipeline - Pending
 - [Python を用いたデータ分析](#-python-を用いたデータ分析)
 - [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフ-ai-エージェントruby--openai)
 - [統計ユーティリティアプリ (Node + React + Rust + Python + Docker) – 開発中](#-統計ユーティリティアプリ-node--react--rust--python--docker--開発中)
-- [カスタム学習した Phi-3 エージェントを LangChain でオーケストレーション - 開発中](#-カスタム学習-phi--3-エージェントと-langchain-によるオーケストレーション--準備中)
+- [カスタム学習した Phi-3 エージェントを LangChain でオーケストレーション - 開発中](#-カスタム学習-phi-3-エージェントと-langchain-によるオーケストレーション--準備中)
 
 ## 🎮 AI Agent のスリラーのゲーム
 
