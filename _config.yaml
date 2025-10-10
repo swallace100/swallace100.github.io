@@ -1,0 +1,26 @@
+title: "Steven Wallace – AI & Software Projects"
+description: "Software engineer creating agentic systems, LLM apps, microservices, and AI experiences from his home in Tokyo."
+url: "https://swallace100.github.io"
+baseurl: ""
+
+author:
+  name: "Steven Wallace"
+  github_username: "swallace100"
+  location: "Tokyo, Japan"
+
+# Social profiles (used by SEO plugin)
+social:
+  name: "Steven Wallace"
+  links:
+    - https://github.com/swallace100
+    - https://www.linkedin.com/in/steven-wallace-dev
+
+# Official GitHub Pages–supported plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Feeds (optional but nice)
+feed:
+  path: atom.xml

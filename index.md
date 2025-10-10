@@ -1,3 +1,13 @@
+---
+layout: default
+title: "AI & Software Projects – Steven Wallace"
+description: "Portfolio of AI-driven apps, multi-agent systems, Twitch chatbot, and microservice architectures. Built in Python, Rust, and JavaScript."
+image: /images/og-preview.png # ← add a 1200x630 image; place in /images
+lang: en
+last_modified_at: 2025-10-10
+permalink: /
+---
+
 # AI & Software Projects
 
 [日本語はこちら](#日本語版)
@@ -424,3 +434,18 @@ Ruby と Sinatra を使って構築した軽量な AI ウェブアプリで、�
 #### パイプライン　－　準備中
 
 <br/><br/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Steven Wallace",
+  "jobTitle": "Software Engineer",
+  "address": { "@type": "PostalAddress", "addressLocality": "Tokyo", "addressCountry": "JP" },
+  "url": "{{ site.url }}{{ site.baseurl }}/",
+  "sameAs": [
+    "https://github.com/{{ site.author.swallace100 }}",
+    "https://www.linkedin.com/in/stevenwallacedev"
+  ]
+}
+</script>

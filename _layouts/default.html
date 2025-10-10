@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+
+    <!-- 🧠 SEO / Open Graph -->
+    <meta property="og:title" content="{{ page.title | default: site.title }}">
+    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}/images/og-preview.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+    <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+    <meta name="twitter:image" content="{{ site.url }}/images/og-preview.png">
+
+    <!-- 📍 Canonical -->
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+    <!-- 🧭 Favicons -->
+    <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
+
+    <!-- 🧩 SEO plugin -->
+    {% seo %}
+
+    <!-- 🎨 Minimal CSS -->
+    <style>
+      :root {
+        --bg: #fafafa;
+        --text: #222;
+        --accent: #2563eb;
+        --muted: #666;
+        --radius: 12px;
+        --max-width: 760px;
+        --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      html {
+        background-color: var(--bg);
+        color: var(--text);
+        font-family: var(--font);
+        line-height: 1.7;
+        font-size: 17px;
+      }
+
+      body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 16px 80px;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      header h1 {
+        margin: 0.4rem 0;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      header p {
+        color: var(--muted);
+        font-size: 1rem;
+      }
+
+      main.container {
+        width: 100%;
+        max-width: var(--max-width);
+        background: white;
+        border-radius: var(--radius);
+        padding: 40px;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      code {
+        background: #f4f4f4;
+        padding: 2px 5px;
+        border-radius: 4px;
+        font-size: 0.9em;
+      }
+
+      footer {
+        margin-top: 3rem;
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 600px) {
+        main.container {
+          padding: 24px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">Steven Wallace</a></h1>
+      <p>Software Engineer in Tokyo · Building agentic systems, bots, and creative tools</p>
+    </header>
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>© {{ "now" | date: "%Y" }} Steven Wallace · <a href="https://github.com/{{ site.author.swallace100 }}">GitHub</a> · <a href="https://www.linkedin.com/in/stevenwallacedev/">LinkedIn</a></p>
+    </footer>
+  </body>
+</html>
