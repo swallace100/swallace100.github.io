@@ -21,7 +21,7 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [Data Analysis with Python](#-data-analysis-with-python)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
 - [Stats Utility App (Node + React + Rust + Python + Docker) - In Progress](#-stats-utility-app-node--react--rust--python--docker)
-- [Custom-trained Phi-3 agents orchestrated with LangChain - Pending](#-custom-trained-phi-3-agents-orchestrated-with-langchain--pending)
+- [Custom-trained Phi-3 agents orchestrated with LangChain - In Progress](#-custom-trained-phi-3-agents-orchestrated-with-langchain--pending)
 
 ---
 
@@ -189,9 +189,9 @@ This project highlights:
 
 ### **Screenshots:**
 
-#### Statistics Visualization
+#### Interface
 
-Descriptive Stats and Visualization - Pending
+![Screenshot 1](images/Statistics_Utility_App.jpg)
 
 <br/><br/>
 
@@ -403,7 +403,9 @@ Ruby と Sinatra を使って構築した軽量な AI ウェブアプリで、�
 
 ### スクリーンショット
 
-#### 記述統計と可視化　－　準備中
+#### ウェブインターフェース
+
+![スクリーンショット 1](images/Statistics_Utility_App.jpg)
 
 <br/><br/>
 
