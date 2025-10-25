@@ -20,7 +20,7 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [Twitch ChatGPT Bot](#-chatgpt-powered-twitch-bot-with-logging)
 - [Data Analysis with Python](#-data-analysis-with-python)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
-- [Stats Utility App (Node + React + Rust + Python + Docker) - In Progress](#-stats-utility-app-node--react--rust--python--docker)
+- [Stats Utility App (Node + React + Rust + Python + Docker)](#-stats-utility-app-node--react--rust--python--docker)
 - [Custom-trained Phi-3 agents orchestrated with LangChain - In Progress](#-custom-trained-phi-3-agents-orchestrated-with-langchain--pending)
 
 ---
@@ -162,17 +162,15 @@ This project highlights:
 
 ### Description
 
-Description
-
-A containerized full-stack stats toolkit that makes data analysis faster and easier.
-Users can upload datasets, run descriptive and inferential tests (t-tests, chi-square, ANOVA, regression), and instantly get clean tables, APA-style write-ups, and high-quality matplotlib visualizations.
+A fully containerized full-stack statistics toolkit for fast, reproducible data analysis.  
+Users can upload CSV files, run descriptive and inferential tests, and instantly view clean results and visualizations — all powered by a multi-language architecture.  
 <br/><br/>
 This project highlights:
 
-- A polyglot architecture: Node.js backend, React frontend, Rust microservice for high-performance calculations, and Python microservice for plotting
-- Cross-service communication with Docker Compose for easy orchestration
-- Shared type contracts (Zod/pydantic) to keep outputs reproducible and verifiable
-- Real-world utility for coursework and research: automated summaries + exportable reports
+- **Polyglot architecture:** Node.js backend, React frontend, Rust microservice for high-performance statistical calculations, and Python microservice for plotting
+- **Cross-service orchestration:** All services run locally with Docker Compose and health checks
+- **Seamless integration:** React UI → Node backend → Rust (stats) → Python (plots)
+- **Practical design:** A compact analytics tool for coursework, prototypes, or research automation
 
 ### Code
 
@@ -180,16 +178,15 @@ This project highlights:
 
 ### Tech Stack
 
-- React (Vite/Next) + Tailwind
-- Node.js (TypeScript, Fastify/Express)
-- Rust (Axum/Actix, numeric kernels)
+- React (Vite) + Tailwind + shadcn/ui
+- Node.js (Express + TypeScript)
+- Rust (Axum + serde for numeric kernels)
 - Python (FastAPI + Matplotlib)
-- PostgreSQL + Redis (storage + jobs)
 - Docker + Docker Compose
 
 ### **Screenshots:**
 
-#### Interface
+#### UI with summary stats, ECDF, and QQ diagnostics
 
 ![Screenshot 1](images/Statistics_Utility_App.jpg)
 
@@ -240,7 +237,7 @@ Researcher -> Writer -> Pipeline - Pending
 - [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
 - [Python を用いたデータ分析](#-python-を用いたデータ分析)
 - [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフ-ai-エージェントruby--openai)
-- [統計ユーティリティアプリ (Node + React + Rust + Python + Docker) – 開発中](#-統計ユーティリティアプリ-node--react--rust--python--docker--開発中)
+- [統計ユーティリティアプリ (Node + React + Rust + Python + Docker)](#-統計ユーティリティアプリ-node--react--rust--python--docker--開発中)
 - [カスタム学習した Phi-3 エージェントを LangChain でオーケストレーション - 開発中](#-カスタム学習-phi-3-エージェントと-langchain-によるオーケストレーション--準備中)
 
 ## 🎮 AI Agent のスリラーのゲーム
@@ -378,15 +375,16 @@ Ruby と Sinatra を使って構築した軽量な AI ウェブアプリで、�
 
 ### 概要
 
-データ分析をより速く、簡単にするためのコンテナ化フルスタック統計ツールです。
-ユーザーはデータセットをアップロードし、記述統計や推測統計（t 検定、カイ二乗検定、ANOVA、回帰分析など）を実行し、整った表、APA スタイルの結果文、そして高品質な matplotlib グラフを即座に得ることができます。
+データ分析をより速く、より簡単に行うための **フルスタック統計ツールキット**。  
+CSV ファイルをアップロードするだけで、記述統計・推測統計（t 検定、カイ二乗、ANOVA、回帰など）を実行し、  
+結果を自動的に整ったテーブルやグラフとして表示します。  
 <br/><br/>
-このプロジェクトの特徴:
+このプロジェクトの特徴：
 
-- Node.js バックエンド、React フロントエンド、高速計算用の Rust マイクロサービス、可視化用の Python マイクロサービスによるポリグロット構成
-- Docker Compose によるクロスサービス通信と容易なオーケストレーション
-- 出力の再現性と検証性を保つための共有型定義（Zod / pydantic）
-- 授業や研究に実用的：自動生成された要約とエクスポート可能なレポート
+- **ポリグロット構成：** Node.js 製バックエンド、React 製フロントエンド、高速計算用 Rust マイクロサービス、グラフ生成用 Python マイクロサービス
+- **クロスサービス連携：** Docker Compose による容易なコンテナオーケストレーション
+- **型安全な連携：** Zod／pydantic による共通データスキーマで、結果の再現性と整合性を保証
+- **実用性重視：** 学習・研究・プロトタイプ用途で使える自動統計レポート生成ツール
 
 ### コード
 
@@ -394,16 +392,15 @@ Ruby と Sinatra を使って構築した軽量な AI ウェブアプリで、�
 
 ### 技術スタック
 
-- React (Vite/Next) + Tailwind
-- Node.js (TypeScript, Fastify/Express)
-- Rust (Axum/Actix, 数値計算カーネル)
-- Python (FastAPI + Matplotlib)
-- PostgreSQL + Redis (ストレージ + ジョブ管理)
+- React（Vite）＋ Tailwind ＋ shadcn/ui
+- Node.js（Express + TypeScript）
+- Rust（Axum + serde による数値カーネル処理）
+- Python（FastAPI + Matplotlib）
 - Docker + Docker Compose
 
 ### スクリーンショット
 
-#### ウェブインターフェース
+#### 統計結果とグラフの UI 画面
 
 ![スクリーンショット 1](images/Statistics_Utility_App.jpg)
 
