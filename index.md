@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "AI & Software Projects – Steven Wallace"
-description: "Portfolio of AI-driven apps, multi-agent systems, Twitch chatbot, and microservice architectures. Built in Python, Rust, and JavaScript."
+title: "Cloud Architecture & Software Projects – Steven Wallace"
+description: "ortfolio of cloud-native and agentic systems designed for scalability and reliability. Features AI-driven services, distributed architectures, and automation pipelines built with Python, Rust, and TypeScript."
 image: /images/og-preview.png # ← add a 1200x630 image; place in /images
 lang: en
 last_modified_at: 2025-10-10
