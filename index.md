@@ -16,12 +16,115 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 
 ## Table of Contents
 
+- [Stats Utility App (Node + React + Rust + Python + Docker)](#-stats-utility-app-node--react--rust--python--docker)
+- [Azure Enterprise Architecture Starter Kit (Bicep)](#-azure-enterprise-architecture-starter-kit-bicep)
+- [Custom-trained Phi-3 agents orchestrated with LangChain](#-custom-trained-phi-3-agents-orchestrated-with-langchain)
 - [AI Agent Thriller Game](#-ai-agent-thriller-game)
 - [Twitch ChatGPT Bot](#-chatgpt-powered-twitch-bot-with-logging)
-- [Data Analysis with Python](#-data-analysis-with-python)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
-- [Stats Utility App (Node + React + Rust + Python + Docker)](#-stats-utility-app-node--react--rust--python--docker)
-- [Custom-trained Phi-3 agents orchestrated with LangChain](#-custom-trained-phi-3-agents-orchestrated-with-langchain)
+
+---
+
+## 📊 Stats Utility App (Node + React + Rust + Python + Docker)
+
+### Description
+
+A fully containerized full-stack statistics toolkit for fast, reproducible data analysis.  
+Users can upload CSV files, run descriptive and inferential tests, and instantly view clean results and visualizations — all powered by a multi-language architecture.  
+<br/><br/>
+This project highlights:
+
+- **Polyglot architecture:** Node.js backend, React frontend, Rust microservice for high-performance statistical calculations, and Python microservice for plotting
+- **Cross-service orchestration:** All services run locally with Docker Compose and health checks
+- **Seamless integration:** React UI → Node backend → Rust (stats) → Python (plots)
+- **Practical design:** A compact analytics tool for coursework, prototypes, or research automation
+
+### Code
+
+[GitHub Repo](https://github.com/swallace100/stats-utility-app)
+
+### Tech Stack
+
+- React (Vite) + Tailwind + shadcn/ui
+- Node.js (Express + TypeScript)
+- Rust (Axum + serde for numeric kernels)
+- Python (FastAPI + Matplotlib)
+- Docker + Docker Compose
+
+### **Screenshots:**
+
+#### UI with summary stats, ECDF, and QQ diagnostics
+
+![Screenshot 1](images/Statistics_Utility_App.jpg)
+
+<br/><br/>
+
+---
+
+## ☁️ Azure Enterprise Architecture Starter Kit (Bicep)
+
+### Description
+
+A fully automated Azure landing zone starter kit built using Bicep to help organizations deploy a secure, enterprise-ready cloud foundation in minutes.
+This project provisions core Azure infrastructure with opinionated best practices: resource group layout, tagging governance, secure storage, Key Vault with RBAC, virtual networking, Log Analytics with a Data Collection Rule, and managed identities ready for OIDC pipelines.
+<br/><br/>
+It’s designed as a practical starting point for real companies, students, and engineers who want to learn cloud architecture through working code, not PDFs.
+Deploy once → Azure is fully structured with security, compliance, observability, and CI/CD identity ready to go.
+
+### Code
+
+[GitHub Repo](https://github.com/swallace100/azure-enterprise-architecture-starter-kit)
+
+### Tech Stack
+
+- Azure Subscriptions & Resource Groups
+- Bicep (infrastructure as code)
+- Azure Policy (tag enforcement, no public blob, TLS)
+- Log Analytics + Data Collection Rule (monitoring pipeline)
+- Key Vault (RBAC mode)
+- Storage (Data Lake Gen2, private options)
+- Virtual Network with subnets
+- Managed Identities (CI/CD & workloads)
+- GitHub OIDC deployment pipeline
+
+### **Screenshots:**
+
+#### Azure Resource Groups
+
+![Screenshot 1](images/Azure.jpg)
+
+<br/><br/>
+
+---
+
+## 🤖 Custom-trained Phi-3 Agents Orchestrated with LangChain
+
+### Description
+
+A multi-agent system powered by custom-trained Phi-3 models, orchestrated using LangChain.
+<br/><br/>
+The workflow consists of three specialized agents: a Researcher that gathers and organizes information, a Writer that produces clear and coherent text, and an Editor that fact-checks and refines the output. This pipeline can be applied to a wide variety of tasks, such as producing accurate reports, summarizing the latest news about a specific stock, or generating knowledge articles for a help desk.
+<br/><br/>
+By combining fine-tuned specialist models with LangChain orchestration, this project demonstrates how AI agents can collaborate to deliver higher quality, more reliable results than a single model working alone.
+
+### Code
+
+[GitHub Repo](https://github.com/swallace100/Custom-Phi-3-Agents-on-LangChain)
+
+### Tech Stack
+
+- Python
+- Phi-3 (LoRA fine-tuning)
+- LangChain
+- FAISS (vector search)
+- Streamlit
+
+### Screenshots
+
+#### Research and Output screenshot
+
+Researcher -> Writer -> Pipeline - Pending
+<br/><br/>
 
 ---
 
@@ -90,37 +193,6 @@ This project demonstrates how to blend AI creativity with Twitch interactivity, 
 
 ---
 
-## 📊 Data Analysis with Python
-
-### Description
-
-A collection of Python-based data analysis projects showcasing techniques in data cleaning, visualization, and statistical exploration.
-This repo demonstrates how to load and transform datasets, extract meaningful insights, and present findings using clear visualizations and concise summaries.
-<br/><br/>
-It highlights a practical workflow for working with real-world data: importing, preprocessing, exploring, and communicating results, which are essential skills for modern software engineers and AI practitioners.
-
-### Code
-
-[GitHub Repo](https://github.com/swallace100/data-analysis)
-
-### Tech Stack
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-
-### **Screenshots:**
-
-#### KPI Dashboard
-
-![Screenshot 1](images/Supplier_Group_Kpis_Dashboard.png)
-
-<br/><br/>
-
----
-
 ## 🍜 Seasonal Ramen Chef AI Agent (Ruby + OpenAI)
 
 ### Description
@@ -158,73 +230,6 @@ This project highlights:
 
 ---
 
-## 📊 Stats Utility App (Node + React + Rust + Python + Docker)
-
-### Description
-
-A fully containerized full-stack statistics toolkit for fast, reproducible data analysis.  
-Users can upload CSV files, run descriptive and inferential tests, and instantly view clean results and visualizations — all powered by a multi-language architecture.  
-<br/><br/>
-This project highlights:
-
-- **Polyglot architecture:** Node.js backend, React frontend, Rust microservice for high-performance statistical calculations, and Python microservice for plotting
-- **Cross-service orchestration:** All services run locally with Docker Compose and health checks
-- **Seamless integration:** React UI → Node backend → Rust (stats) → Python (plots)
-- **Practical design:** A compact analytics tool for coursework, prototypes, or research automation
-
-### Code
-
-[GitHub Repo](https://github.com/swallace100/stats-utility-app)
-
-### Tech Stack
-
-- React (Vite) + Tailwind + shadcn/ui
-- Node.js (Express + TypeScript)
-- Rust (Axum + serde for numeric kernels)
-- Python (FastAPI + Matplotlib)
-- Docker + Docker Compose
-
-### **Screenshots:**
-
-#### UI with summary stats, ECDF, and QQ diagnostics
-
-![Screenshot 1](images/Statistics_Utility_App.jpg)
-
-<br/><br/>
-
----
-
-## 🤖 Custom-trained Phi-3 Agents Orchestrated with LangChain
-
-### Description
-
-A multi-agent system powered by custom-trained Phi-3 models, orchestrated using LangChain.
-<br/><br/>
-The workflow consists of three specialized agents: a Researcher that gathers and organizes information, a Writer that produces clear and coherent text, and an Editor that fact-checks and refines the output. This pipeline can be applied to a wide variety of tasks, such as producing accurate reports, summarizing the latest news about a specific stock, or generating knowledge articles for a help desk.
-<br/><br/>
-By combining fine-tuned specialist models with LangChain orchestration, this project demonstrates how AI agents can collaborate to deliver higher quality, more reliable results than a single model working alone.
-
-### Code
-
-[GitHub Repo](https://github.com/swallace100/Custom-Phi-3-Agents-on-LangChain)
-
-### Tech Stack
-
-- Python
-- Phi-3 (LoRA fine-tuning)
-- LangChain
-- FAISS (vector search)
-- Streamlit
-
-### Screenshots
-
-#### Research and Output screenshot
-
-Researcher -> Writer -> Pipeline - Pending
-<br/><br/>
-
----
-
 # 日本語版
 
 [English version](#ai--software-projects)
@@ -233,12 +238,119 @@ Researcher -> Writer -> Pipeline - Pending
 
 ## 目次
 
+- [統計ユーティリティアプリ (Node + React + Rust + Python + Docker)](#-統計ユーティリティアプリ-node--react--rust--python--docker--開発中)
+- [Azure Enterprise Architecture Starter Kit (Bicep) (JP)](#-azure-enterprise-architecture-starter-kit-bicep-jp)
+- [カスタム学習した Phi-3 エージェントを LangChain でオーケストレーション](#-カスタム学習-phi-3-エージェントと-langchain-によるオーケストレーション)
 - [AI Agent のスリラーのゲーム](#-ai-agent-のスリラーのゲーム)
 - [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
-- [Python を用いたデータ分析](#-python-を用いたデータ分析)
 - [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフ-ai-エージェントruby--openai)
-- [統計ユーティリティアプリ (Node + React + Rust + Python + Docker)](#-統計ユーティリティアプリ-node--react--rust--python--docker--開発中)
-- [カスタム学習した Phi-3 エージェントを LangChain でオーケストレーション](#-カスタム学習-phi-3-エージェントと-langchain-によるオーケストレーション)
+
+---
+
+## 📊 統計ユーティリティアプリ (Node + React + Rust + Python + Docker) – 開発中
+
+### 概要
+
+データ分析をより速く、より簡単に行うための **フルスタック統計ツールキット**。  
+CSV ファイルをアップロードするだけで、記述統計・推測統計（t 検定、カイ二乗、ANOVA、回帰など）を実行し、  
+結果を自動的に整ったテーブルやグラフとして表示します。  
+<br/><br/>
+このプロジェクトの特徴：
+
+- **ポリグロット構成：** Node.js 製バックエンド、React 製フロントエンド、高速計算用 Rust マイクロサービス、グラフ生成用 Python マイクロサービス
+- **クロスサービス連携：** Docker Compose による容易なコンテナオーケストレーション
+- **型安全な連携：** Zod／pydantic による共通データスキーマで、結果の再現性と整合性を保証
+- **実用性重視：** 学習・研究・プロトタイプ用途で使える自動統計レポート生成ツール
+
+### コード
+
+[GitHub リポジトリ](https://github.com/swallace100/stats-utility-app)
+
+### 技術スタック
+
+- React（Vite）＋ Tailwind ＋ shadcn/ui
+- Node.js（Express + TypeScript）
+- Rust（Axum + serde による数値カーネル処理）
+- Python（FastAPI + Matplotlib）
+- Docker + Docker Compose
+
+### スクリーンショット
+
+#### 統計結果とグラフの UI 画面
+
+![スクリーンショット 1](images/Statistics_Utility_App.jpg)
+
+<br/><br/>
+
+---
+
+## ☁️ Azure Enterprise Architecture Starter Kit (Bicep) (JP)
+
+### 概要
+
+このリポジトリは、Bicep を用いて Azure のエンタープライズ向けランディングゾーンを自動構築できるスターターキットです。
+数分で、安全性・運用性・ガバナンスを備えたクラウド基盤を Azure 上に展開できます。
+
+本プロジェクトでは、実務で必要となるコア構成をまとめてデプロイします：リソースグループの標準構成、タグ付けガバナンス、セキュアなストレージ (Data Lake Gen2)、Key Vault（RBAC モード）、仮想ネットワークとサブネット、Log Analytics & Data Collection Rule による監視基盤、と OIDC パイプラインに対応したユーザー割り当てマネージド ID
+<br/><br/>
+「ドキュメントを見るだけ」ではなく、動くコードを通して Azure アーキテクチャを学べることを重視しています。
+一度デプロイするだけで、セキュリティ・コンプライアンス・監視・CI/CD まで整った Azure 環境を構築できます。
+
+### コード
+
+[GitHub リポジトリ](https://github.com/swallace100/azure-enterprise-architecture-starter-kit)
+
+### 技術スタック
+
+- Azure サブスクリプション & リソースグループ
+- Bicep（IaC）
+- Azure Policy（タグ必須化 / Blob 公開禁止 / TLS1.2+）
+- Log Analytics + Data Collection Rule
+- Key Vault（RBAC、パージ保護）
+- Storage（階層型ネームスペース / セキュア設定）
+- Virtual Network & サブネット
+- ユーザー割り当てマネージド ID（CI/CD & ワークロード）
+- GitHub OIDC デプロイパイプライン対応
+
+### スクリーンショット
+
+#### Azure リソースグループ構成
+
+![Screenshot 1](images/Azure.jpg)
+
+<br/><br/>
+
+---
+
+## 🤖 カスタム学習 Phi-3 エージェントと LangChain によるオーケストレーション
+
+### 概要
+
+カスタム学習した Phi-3 モデルを活用し、LangChain でオーケストレーションしたマルチエージェントシステムです。
+<br/><br/>
+ワークフローは 3 つの専門エージェントで構成されています。リサーチャーが情報を収集・整理し、ライターが分かりやすく一貫性のある文章を生成し、エディターが事実確認と推敲を行います。このパイプラインにより、特定の株に関する最新ニュースの要約や正確なレポート作成、ヘルプデスク記事の生成など、幅広いタスクに対応できます。
+<br/><br/>
+専門的に調整されたモデルと LangChain の連携により、単一モデルでは実現が難しい、高品質で信頼性の高いアウトプットを生成できることを実証します。
+
+### コード
+
+[GitHub リポジトリ](https://github.com/swallace100/Custom-Phi-3-Agents-on-LangChain)
+
+### 技術スタック
+
+- Python
+- Phi-3 (LoRA ファインチューニング)
+- LangChain
+- FAISS（ベクトル検索）
+- Streamlit
+
+### スクリーンショット
+
+#### パイプライン　－　準備中
+
+<br/><br/>
+
+---
 
 ## 🎮 AI Agent のスリラーのゲーム
 
@@ -303,37 +415,6 @@ AI の創造性と Twitch のインタラクティブ性を融合させ、オフ
 
 ---
 
-## 📊 Python を用いたデータ分析
-
-### 概要
-
-Python を活用したデータ分析プロジェクトのコレクションで、データのクリーニング、可視化、統計的な探索 の手法を紹介しています。
-このリポジトリでは、データセットを読み込み・変換し、有益なインサイトを抽出し、明確な可視化や簡潔な要約で結果を提示する方法を示しています。
-<br/><br/>
-実際のデータに取り組む際の実践的なワークフロー（インポート、前処理、探索、結果の伝達）を強調しており、現代のソフトウェアエンジニアや AI 実務者に不可欠なスキルを体現しています。
-
-### コード
-
-[GitHub リポジトリ](https://github.com/swallace100/data-analysis)
-
-### 技術スタック
-
-- Python
-- Pandas
-- Numpy
-- Matplotlib
-- Jupyter Notebook
-
-### スクリーンショット
-
-#### KPI ダッシュボード
-
-![Screenshot 1](images/Supplier_Group_Kpis_Dashboard.png)
-
-<br/><br/>
-
----
-
 ## 🍜 季節のラーメンシェフ AI エージェント（Ruby + OpenAI）
 
 ### 説明
@@ -370,69 +451,6 @@ Ruby と Sinatra を使って構築した軽量な AI ウェブアプリで、�
 <br/><br/>
 
 ---
-
-## 📊 統計ユーティリティアプリ (Node + React + Rust + Python + Docker) – 開発中
-
-### 概要
-
-データ分析をより速く、より簡単に行うための **フルスタック統計ツールキット**。  
-CSV ファイルをアップロードするだけで、記述統計・推測統計（t 検定、カイ二乗、ANOVA、回帰など）を実行し、  
-結果を自動的に整ったテーブルやグラフとして表示します。  
-<br/><br/>
-このプロジェクトの特徴：
-
-- **ポリグロット構成：** Node.js 製バックエンド、React 製フロントエンド、高速計算用 Rust マイクロサービス、グラフ生成用 Python マイクロサービス
-- **クロスサービス連携：** Docker Compose による容易なコンテナオーケストレーション
-- **型安全な連携：** Zod／pydantic による共通データスキーマで、結果の再現性と整合性を保証
-- **実用性重視：** 学習・研究・プロトタイプ用途で使える自動統計レポート生成ツール
-
-### コード
-
-[GitHub リポジトリ](https://github.com/swallace100/stats-utility-app)
-
-### 技術スタック
-
-- React（Vite）＋ Tailwind ＋ shadcn/ui
-- Node.js（Express + TypeScript）
-- Rust（Axum + serde による数値カーネル処理）
-- Python（FastAPI + Matplotlib）
-- Docker + Docker Compose
-
-### スクリーンショット
-
-#### 統計結果とグラフの UI 画面
-
-![スクリーンショット 1](images/Statistics_Utility_App.jpg)
-
-<br/><br/>
-
-## 🤖 カスタム学習 Phi-3 エージェントと LangChain によるオーケストレーション
-
-### 概要
-
-カスタム学習した Phi-3 モデルを活用し、LangChain でオーケストレーションしたマルチエージェントシステムです。
-<br/><br/>
-ワークフローは 3 つの専門エージェントで構成されています。リサーチャーが情報を収集・整理し、ライターが分かりやすく一貫性のある文章を生成し、エディターが事実確認と推敲を行います。このパイプラインにより、特定の株に関する最新ニュースの要約や正確なレポート作成、ヘルプデスク記事の生成など、幅広いタスクに対応できます。
-<br/><br/>
-専門的に調整されたモデルと LangChain の連携により、単一モデルでは実現が難しい、高品質で信頼性の高いアウトプットを生成できることを実証します。
-
-### コード
-
-[GitHub リポジトリ](https://github.com/swallace100/Custom-Phi-3-Agents-on-LangChain)
-
-### 技術スタック
-
-- Python
-- Phi-3 (LoRA ファインチューニング)
-- LangChain
-- FAISS（ベクトル検索）
-- Streamlit
-
-### スクリーンショット
-
-#### パイプライン　－　準備中
-
-<br/><br/>
 
 <script type="application/ld+json">
 {
