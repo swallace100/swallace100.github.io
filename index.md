@@ -17,7 +17,7 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 ## Table of Contents
 
 - [Stats Utility App (Node + React + Rust + Python + Docker)](#-stats-utility-app-node--react--rust--python--docker)
-- [Azure Enterprise Architecture Starter Kit (Bicep)](#azure-enterprise-architecture-starter-kit-bicep)
+- [Azure Enterprise Architecture Starter Kit (Bicep)](#-azure-enterprise-architecture-starter-kit--bicep)
 - [Custom-trained Phi-3 agents orchestrated with LangChain](#-custom-trained-phi-3-agents-orchestrated-with-langchain)
 - [AI Agent Thriller Game](#-ai-agent-thriller-game)
 - [Twitch ChatGPT Bot](#-chatgpt-powered-twitch-bot-with-logging)
@@ -239,7 +239,7 @@ This project highlights:
 ## 目次
 
 - [統計ユーティリティアプリ (Node + React + Rust + Python + Docker)](#-統計ユーティリティアプリ-node--react--rust--python--docker--開発中)
-- [Azure Enterprise Architecture Starter Kit (Bicep) (JP)](#-azure-enterprise-architecture-starter-kit-bicep-jp)
+- [Azure Enterprise Architecture Starter Kit (Bicep) (JP)](#-azure-enterprise-architecture-starter-kit--bicep--jp)
 - [カスタム学習した Phi-3 エージェントを LangChain でオーケストレーション](#-カスタム学習-phi-3-エージェントと-langchain-によるオーケストレーション)
 - [AI Agent のスリラーのゲーム](#-ai-agent-のスリラーのゲーム)
 - [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
