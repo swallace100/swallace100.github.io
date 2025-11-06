@@ -17,7 +17,7 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 ## Table of Contents
 
 - [Stats Utility App (Node + React + Rust + Python + Docker)](#-stats-utility-app-node--react--rust--python--docker)
-- [Azure Enterprise Architecture Starter Kit (Bicep)](#-azure-enterprise-architecture-starter-kit-bicep)
+- [Azure Enterprise Architecture Starter Kit (Bicep)](#azure-enterprise-architecture-starter-kit-bicep)
 - [Custom-trained Phi-3 agents orchestrated with LangChain](#-custom-trained-phi-3-agents-orchestrated-with-langchain)
 - [AI Agent Thriller Game](#-ai-agent-thriller-game)
 - [Twitch ChatGPT Bot](#-chatgpt-powered-twitch-bot-with-logging)
