@@ -249,8 +249,8 @@ This project highlights:
 - [統計ユーティリティアプリ (Node + React + Rust + Python + Docker)](#-統計ユーティリティアプリ-node--react--rust--python--docker--開発中)
 - [Azure Enterprise Architecture Starter Kit (Bicep) (JP)](#-azure-enterprise-architecture-starter-kit-bicep-jp)
 - [カスタム学習した Phi-3 エージェントを LangChain でオーケストレーション](#-カスタム学習-phi-3-エージェントと-langchain-によるオーケストレーション)
-- [.NET CI/CD パイプライン（Docker & GitHub Actions）](#-.net-ci-cdパイプラン-docker--github-actions)
-- [ASP.NET → .NET 10 マイグレーション サンプル](#-asp.net--.net-10-マイグレーション-サンプル)
+- [.NET CI/CD パイプライン（Docker + GitHub Actions）](#-.net-ci-cdパイプラン-docker--github-actions)
+- [ASP.NET へ .NET 10 マイグレーション サンプル](#-asp.net-へ-.net-10-マイグレーション-サンプル)
 - [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフ-ai-エージェントruby--openai)
 
 ---
@@ -360,7 +360,7 @@ CSV ファイルをアップロードするだけで、記述統計・推測統�
 
 ---
 
-## 🚀 .NET CI/CD パイプライン（Docker & GitHub Actions）
+## 🚀 .NET CI/CD パイプライン（Docker + GitHub Actions）
 
 ### 概要
 
@@ -397,7 +397,7 @@ Docker と GitHub Actions を活用し、.NET 10 Minimal Web API をビルド・
 
 ---
 
-## 🧩 ASP.NET → .NET 10 マイグレーション サンプル
+## 🧩 ASP.NET へ .NET 10 マイグレーション サンプル
 
 ### 概要
 
