@@ -19,8 +19,8 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [Stats Utility App (Node + React + Rust + Python + Docker)](#-stats-utility-app-node--react--rust--python--docker)
 - [Azure Enterprise Architecture Starter Kit (Bicep)](#-azure-enterprise-architecture-starter-kit-bicep)
 - [Custom-trained Phi-3 agents orchestrated with LangChain](#-custom-trained-phi-3-agents-orchestrated-with-langchain)
-- [.NET CI/CD Pipeline with Docker + GitHub Actions](#--net-ci-cd-pipeline-with-docker--github-actions)
-- [ASP.NET to .NET 10 Migration Samples](#-asp--net-to-net-10-migration-samples)
+- [.NET CI/CD Pipeline with Docker + GitHub Actions](#--net-cicd-pipeline-with-docker--github-actions)
+- [ASP.NET to .NET 10 Migration Samples](#-asp-net-to--net-10-migration-samples)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
 
 ---
@@ -249,8 +249,8 @@ This project highlights:
 - [統計ユーティリティアプリ (Node + React + Rust + Python + Docker)](#-統計ユーティリティアプリ-node--react--rust--python--docker--開発中)
 - [Azure Enterprise Architecture Starter Kit (Bicep) (JP)](#-azure-enterprise-architecture-starter-kit-bicep-jp)
 - [カスタム学習した Phi-3 エージェントを LangChain でオーケストレーション](#-カスタム学習-phi-3-エージェントと-langchain-によるオーケストレーション)
-- [.NET CI/CD パイプライン（Docker + GitHub Actions）](#-net-ci-cdパイプラン-docker--github-actions)
-- [ASP.NET へ .NET 10 マイグレーション サンプル](#-asp-net-へ-net-10-マイグレーション-サンプル)
+- [.NET CI/CD パイプライン（Docker + GitHub Actions）](#-net-cicd-パイプラン-docker--github-actions)
+- [ASP.NET へ .NET 10 マイグレーション サンプル](#-asp-net-へ--net-10-マイグレーション-サンプル)
 - [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフ-ai-エージェントruby--openai)
 
 ---
