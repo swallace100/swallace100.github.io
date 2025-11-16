@@ -19,8 +19,8 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [Stats Utility App (Node + React + Rust + Python + Docker)](#-stats-utility-app-node--react--rust--python--docker)
 - [Azure Enterprise Architecture Starter Kit (Bicep)](#-azure-enterprise-architecture-starter-kit-bicep)
 - [Custom-trained Phi-3 agents orchestrated with LangChain](#-custom-trained-phi-3-agents-orchestrated-with-langchain)
-- [AI Agent Thriller Game](#-ai-agent-thriller-game)
-- [Twitch ChatGPT Bot](#-chatgpt-powered-twitch-bot-with-logging)
+- [.NET CI/CD Pipeline using GitHub Actions and Docker Compose](#-.net-ci-cd-pipeline-with-docker--github-actions)
+- [Legacy ASP.NET to .NET 10 Upgrade](#-chatgpt-powered-twitch-bot-with-logging)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
 
 ---
@@ -128,34 +128,37 @@ Researcher -> Writer -> Pipeline - Pending
 
 ---
 
-## 🎮 AI Agent Thriller Game
+## 🚀 .NET CI/CD Pipeline with Docker & GitHub Actions
 
 ### Description
 
-An interactive text adventure game called Eternal Hunt where an AI agent plays the role of the game narrator.
+A minimal, production-ready example repository demonstrating how to build, containerize, and deploy a .NET 10 Minimal Web API using Docker and GitHub Actions CI/CD automation.
 <br/><br/>
-Using the OpenAI Agents SDK, this game features two AI agents that help tell a story. One agent is the narrator that interacts with the player. The other agent is a web researcher with access to the internet. The web researcher can only be contacted by the narrator agent when it needs access to real time information. The narrator agent is trained with the story background, has custom function tools, can save updates in the story log, and can conduct inventory management.
+This project includes a multi-stage Dockerfile, Docker Compose support for local development, and a GitHub Actions pipeline designed to perform automated image builds and smoke testing. The goal of this repo is to provide a clean reference architecture for modern DevOps workflows and container-based application delivery.
 <br/><br/>
-There is a Jupyter Notebook version of the game that walks through the game's main processes. The main Python application comes with both a Gradio and Streamlit UI.
+The sample API includes endpoints for health checks and simple interactions, and is ready for expansion with automated deployments, GHCR container registry integration, and remote server rollout via SSH.
 
 ### Code
 
-[GitHub Repo](https://github.com/swallace100/thriller-game-ai-agent)
+[GitHub Repo](https://github.com/swallace100/ci-cd-pipelines-github-actions-docker-compose)
 
 ### Tech Stack
 
-- Python
-- Jupyter Notebook
-- OpenAI Agents SDK
-- Gradio
-- Streamlit
+- .NET 10 Minimal API
+- Docker & Docker Compose
+- GitHub Actions CI/CD
+- Swagger / OpenAPI
+- Curl smoke testing
+- GHCR (future expansion)
 
-### Screenshots
+### Endpoints
 
-#### Gradio UI Screenshot
-
-![Screenshot 1](images/Gradio_Eternal_Hunt.jpg)
-<br/><br/>
+| Method | Route           | Description                   |
+| ------ | --------------- | ----------------------------- |
+| GET    | `/`             | Greeting endpoint             |
+| GET    | `/health`       | CI/CD health check endpoint   |
+| GET    | `/greet/{name}` | Example parameter route       |
+| GET    | `/swagger`      | Interactive API documentation |
 
 ---
 
@@ -241,7 +244,7 @@ This project highlights:
 - [統計ユーティリティアプリ (Node + React + Rust + Python + Docker)](#-統計ユーティリティアプリ-node--react--rust--python--docker--開発中)
 - [Azure Enterprise Architecture Starter Kit (Bicep) (JP)](#-azure-enterprise-architecture-starter-kit-bicep-jp)
 - [カスタム学習した Phi-3 エージェントを LangChain でオーケストレーション](#-カスタム学習-phi-3-エージェントと-langchain-によるオーケストレーション)
-- [AI Agent のスリラーのゲーム](#-ai-agent-のスリラーのゲーム)
+- [.NET CI/CD パイプライン（Docker & GitHub Actions）](#-.net-ci-cdパイプラン-docker--github-actions)
 - [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
 - [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフ-ai-エージェントruby--openai)
 
@@ -352,33 +355,38 @@ CSV ファイルをアップロードするだけで、記述統計・推測統�
 
 ---
 
-## 🎮 AI Agent のスリラーのゲーム
+## 🚀 .NET CI/CD パイプライン（Docker & GitHub Actions）
 
 ### 概要
 
-『永遠の狩り』はインタラクティブなテキストアドベンチャーゲームで、AI エージェントがナレーターとして登場する。
+Docker と GitHub Actions を活用し、.NET 10 Minimal Web API をビルド・コンテナ化・デプロイするための、最小構成かつ本番運用レベルのサンプルリポジトリです。
 <br/><br/>
-このゲームは OpenAI の Agents SDK を活用し、二つの AI エージェントがストーリーを伝える。一つのエージェントはナレーターとなりプレイヤーとやり取りし、もう一つのエージェントはインターネットにアクセスして情報を調べる研究者の役割を果たす。研究者エージェントには、ナレーターエージェントがリアルタイムの情報を必要とする時だけ連携できる。ナレーターエージェントはストーリーに基づいて学習されており、カスタム機能を備えている。さらに、ストーリーの変更をログに保存したり、在庫管理を行ったりすることも行える。
+本プロジェクトには、マルチステージ構成の Dockerfile、ローカル開発向けの Docker Compose、そして自動ビルドとスモークテストを実行する GitHub Actions パイプラインが含まれています。
+このリポジトリの目的は、モダンな DevOps ワークフローおよびコンテナベースのアプリケーション配信における、シンプルで再利用性の高いリファレンスアーキテクチャを提供することです。
 <br/><br/>
-Jupyter Notebook 版では、ゲームの主な処理の流れを示している。メインの Python アプリケーションは、Gradio と Streamlit の UI を備えている。
+サンプル API には、ヘルスチェックや基本的な API 操作ポイントが用意されており、将来的には自動デプロイ、GHCR コンテナレジストリ統合、SSH 経由のリモートロールアウトなどに拡張できる構成になっています。
 
 ### コード
 
-[GitHub Repo](https://github.com/swallace100/thriller-game-ai-agent)
+[GitHub Repo](https://github.com/swallace100/ci-cd-pipelines-github-actions-docker-compose)
 
 ### 技術スタック
 
-- Python
-- Jupyter Notebook
-- OpenAI Agents SDK
-- Gradio
-- Streamlit
+- .NET 10 Minimal API
+- Docker / Docker Compose
+- GitHub Actions CI/CD
+- Swagger / OpenAPI
+- Curl スモークテスト
+- GHCR（今後の拡張予定）
 
-### スクリーンショット
+### エンドポイント
 
-#### Gradio UI のスクリーンショット
-
-![Screenshot 1](images/Gradio_Eternal_Hunt_jp.jpg)
+| Method | Route           | 説明                               |
+| ------ | --------------- | ---------------------------------- |
+| GET    | `/`             | 挨拶メッセージを返すエンドポイント |
+| GET    | `/health`       | CI/CD 用のヘルスチェック           |
+| GET    | `/greet/{name}` | パラメータ付きレスポンス例         |
+| GET    | `/swagger`      | インタラクティブ API ドキュメント  |
 
 ---
 
