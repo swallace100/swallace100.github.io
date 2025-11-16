@@ -19,8 +19,8 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [Stats Utility App (Node + React + Rust + Python + Docker)](#-stats-utility-app-node--react--rust--python--docker)
 - [Azure Enterprise Architecture Starter Kit (Bicep)](#-azure-enterprise-architecture-starter-kit-bicep)
 - [Custom-trained Phi-3 agents orchestrated with LangChain](#-custom-trained-phi-3-agents-orchestrated-with-langchain)
-- [.NET CI/CD Pipeline with Docker + GitHub Actions](#-net-ci-cd-pipeline-with-docker--github-actions)
-- [ASP.NET to .NET 10 Migration Samples](#-asp-net-to-net-10-migration-samples)
+- [.NET CI/CD Pipeline with Docker + GitHub Actions](#cicd-en)
+- [ASP.NET to .NET 10 Migration Samples](#aspnet-en)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
 
 ---
@@ -128,7 +128,7 @@ Researcher -> Writer -> Pipeline - Pending
 
 ---
 
-## 🚀 .NET CI/CD Pipeline with Docker + GitHub Actions
+## <a id="cicd-en"></a> 🚀 .NET CI/CD Pipeline with Docker + GitHub Actions
 
 ### Description
 
@@ -162,7 +162,7 @@ The sample API includes endpoints for health checks and simple interactions, and
 
 ---
 
-## 🧩 ASP.NET to .NET 10 Migration Samples
+## <a id="aspnet-en"></a> 🧩 ASP.NET to .NET 10 Migration Samples
 
 ### Description
 
@@ -249,8 +249,8 @@ This project highlights:
 - [統計ユーティリティアプリ (Node + React + Rust + Python + Docker)](#-統計ユーティリティアプリ-node--react--rust--python--docker--開発中)
 - [Azure Enterprise Architecture Starter Kit (Bicep) (JP)](#-azure-enterprise-architecture-starter-kit-bicep-jp)
 - [カスタム学習した Phi-3 エージェントを LangChain でオーケストレーション](#-カスタム学習-phi-3-エージェントと-langchain-によるオーケストレーション)
-- [.NET CI/CD パイプライン（Docker + GitHub Actions）](#--net-cicd-パイプラン-docker--github-actions)
-- [ASP.NET へ .NET 10 マイグレーション サンプル](#-asp-net-へ-net-10-マイグレーション-サンプル)
+- [.NET CI/CD パイプライン（Docker + GitHub Actions）](#cicd-ja)
+- [ASP.NET へ .NET 10 マイグレーション サンプル](#aspnet-ja)
 - [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフ-ai-エージェントruby--openai)
 
 ---
@@ -360,7 +360,7 @@ CSV ファイルをアップロードするだけで、記述統計・推測統�
 
 ---
 
-## 🚀 .NET CI/CD パイプライン（Docker + GitHub Actions）
+## <a id="cicd-ja"></a> 🚀 .NET CI/CD パイプライン（Docker + GitHub Actions）
 
 ### 概要
 
@@ -397,7 +397,7 @@ Docker と GitHub Actions を活用し、.NET 10 Minimal Web API をビルド・
 
 ---
 
-## 🧩 ASP.NET へ .NET 10 マイグレーション サンプル
+## <a id="aspnet-ja"></a> 🧩 ASP.NET へ .NET 10 マイグレーション サンプル
 
 ### 概要
 
