@@ -20,7 +20,7 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [Azure Enterprise Architecture Starter Kit (Bicep)](#-azure-enterprise-architecture-starter-kit-bicep)
 - [Custom-trained Phi-3 agents orchestrated with LangChain](#-custom-trained-phi-3-agents-orchestrated-with-langchain)
 - [.NET CI/CD Pipeline with Docker & GitHub Actions](#-.net-ci-cd-pipeline-with-docker--github-actions)
-- [ASP.NET → .NET 10 Migration Samples](#-asp.net-.net-10-migration-samples)
+- [ASP.NET to .NET 10 Migration Samples](#-asp.net-to-.net-10-migration-samples)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
 
 ---
@@ -128,7 +128,7 @@ Researcher -> Writer -> Pipeline - Pending
 
 ---
 
-## 🚀 .NET CI/CD Pipeline with Docker & GitHub Actions
+## 🚀 .NET CI/CD Pipeline with Docker + GitHub Actions
 
 ### Description
 
@@ -162,7 +162,7 @@ The sample API includes endpoints for health checks and simple interactions, and
 
 ---
 
-## 🧩 ASP.NET → .NET 10 Migration Samples
+## 🧩 ASP.NET to .NET 10 Migration Samples
 
 ### Description
 
