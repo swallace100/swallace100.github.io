@@ -19,8 +19,8 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [Stats Utility App (Node + React + Rust + Python + Docker)](#-stats-utility-app-node--react--rust--python--docker)
 - [Azure Enterprise Architecture Starter Kit (Bicep)](#-azure-enterprise-architecture-starter-kit-bicep)
 - [Custom-trained Phi-3 agents orchestrated with LangChain](#-custom-trained-phi-3-agents-orchestrated-with-langchain)
-- [.NET CI/CD Pipeline with Docker + GitHub Actions](#-net-ci-cd-pipeline-with-docker--github-actions)
-- [ASP.NET to .NET 10 Migration Samples](#-asp-net-to-net-10-migration-samples)
+- [.NET CI/CD Pipeline with Docker + GitHub Actions](#--net-ci-cd-pipeline-with-docker--github-actions)
+- [ASP.NET to .NET 10 Migration Samples](#-asp--net-to-net-10-migration-samples)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
 
 ---
