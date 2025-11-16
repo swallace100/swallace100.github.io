@@ -20,7 +20,7 @@ Welcome. This site showcases a collection of software I’ve built, ranging from
 - [Azure Enterprise Architecture Starter Kit (Bicep)](#-azure-enterprise-architecture-starter-kit-bicep)
 - [Custom-trained Phi-3 agents orchestrated with LangChain](#-custom-trained-phi-3-agents-orchestrated-with-langchain)
 - [.NET CI/CD Pipeline using GitHub Actions and Docker Compose](#-.net-ci-cd-pipeline-with-docker--github-actions)
-- [Legacy ASP.NET to .NET 10 Upgrade](#-chatgpt-powered-twitch-bot-with-logging)
+- [ASP.NET → .NET 10 Migration Samples](#-asp.net--.net-10-migration-samples)
 - [Seasonal Ramen Chef AI Agent (Ruby + OpenAI)](#-seasonal-ramen-chef-ai-agent-ruby--openai)
 
 ---
@@ -61,37 +61,40 @@ This project highlights:
 
 ---
 
-## 🏢 Azure Enterprise Architecture Starter Kit (Bicep)
+## 🧩 ASP.NET → .NET 10 Migration Samples
 
 ### Description
 
-A fully automated Azure landing zone starter kit built using Bicep to help organizations deploy a secure, enterprise-ready cloud foundation in minutes.
-This project provisions core Azure infrastructure with opinionated best practices: resource group layout, tagging governance, secure storage, Key Vault with RBAC, virtual networking, Log Analytics with a Data Collection Rule, and managed identities ready for OIDC pipelines.
+A collection of real-world sample projects that demonstrate how to migrate legacy ASP.NET (System.Web) applications to modern .NET 10, ASP.NET Core, and Blazor.
+This repository provides step-by-step upgrade examples based on Microsoft’s original aspnet/samples archive, showing how to port HttpClient samples, Web API, MVC, Identity, and Katana middleware from .NET Framework to modern .NET.
 <br/><br/>
-It’s designed as a practical starting point for real companies, students, and engineers who want to learn cloud architecture through working code, not PDFs.
-Deploy once → Azure is fully structured with security, compliance, observability, and CI/CD identity ready to go.
+The goal is to provide working reference implementations, not theoretical guides — enabling developers to understand the full modernization process, solve common migration errors, and adopt modern hosting models such as Minimal APIs, dependency injection, configuration via appsettings.json, and Blazor UI components.
+<br/><br/>
+These examples are ideal for engineers modernizing existing enterprise applications, students learning modern .NET architecture, or teams preparing for large-scale modernization projects.
 
 ### Code
 
-[GitHub Repo](https://github.com/swallace100/azure-enterprise-architecture-starter-kit)
+[GitHub Repo](https://github.com/swallace100/aspdotnet-dotnet-upgrade)
 
 ### Tech Stack
 
-- Azure Subscriptions & Resource Groups
-- Bicep (infrastructure as code)
-- Azure Policy (tag enforcement, no public blob, TLS)
-- Log Analytics + Data Collection Rule (monitoring pipeline)
-- Key Vault (RBAC mode)
-- Storage (Data Lake Gen2, private options)
-- Virtual Network with subnets
-- Managed Identities (CI/CD & workloads)
-- GitHub OIDC deployment pipeline
+- Legacy ASP.NET (.NET Framework 4.x)
+- .NET 10 SDK & Runtime
+- ASP.NET Core 10
+- Minimal Hosting Model (Program.cs)
+- Blazor UI & Razor Components
+- HttpClient + HttpClientFactory
+- Identity modernizations
+- MVC / Web API upgrades
+- Configuration via appsettings.json
 
-### **Screenshots:**
+### Examples include
 
-#### Azure Resource Groups
-
-![Screenshot 1](images/Azure.jpg)
+- HttpClient → modern HttpClientFactory patterns
+- Web API → ASP.NET Core Web API (Pending)
+- MVC5 → ASP.NET Core MVC & RazorI (Pending)
+- Identity → modern auth & middleware configurationI (Pending)
+- Katana → Middleware via ASP.NET Core pipelineI (Pending)
 
 <br/><br/>
 
@@ -245,7 +248,7 @@ This project highlights:
 - [Azure Enterprise Architecture Starter Kit (Bicep) (JP)](#-azure-enterprise-architecture-starter-kit-bicep-jp)
 - [カスタム学習した Phi-3 エージェントを LangChain でオーケストレーション](#-カスタム学習-phi-3-エージェントと-langchain-によるオーケストレーション)
 - [.NET CI/CD パイプライン（Docker & GitHub Actions）](#-.net-ci-cdパイプラン-docker--github-actions)
-- [Twitch ChatGPT ボット](#-chatgpt-搭載-twitch-ボットチャットログ付き)
+- [ASP.NET → .NET 10 マイグレーション サンプル](#-asp.net--.net-10-マイグレーション-サンプル)
 - [季節のラーメンシェフ AI エージェント（Ruby + OpenAI）](#-季節のラーメンシェフ-ai-エージェントruby--openai)
 
 ---
@@ -388,37 +391,45 @@ Docker と GitHub Actions を活用し、.NET 10 Minimal Web API をビルド・
 | GET    | `/greet/{name}` | パラメータ付きレスポンス例         |
 | GET    | `/swagger`      | インタラクティブ API ドキュメント  |
 
+<br/><br/>
+
 ---
 
-## 🤖 ChatGPT 搭載 Twitch ボット（チャットログ付き）
+## 🧩 ASP.NET → .NET 10 マイグレーション サンプル
 
 ### 概要
 
-OpenAI の GPT モデルを活用し、ジョーク、トリビア、ニックネーム、マイクロストーリー、AI 画像生成 を行う Twitch チャットボット。
-チャットメッセージはチャンネルごと・日付ごとにログファイルとして保存され、オフライン時でも配信の場を盛り上げる存在となる。
+このリポジトリは、レガシーな ASP.NET (System.Web) アプリケーションを 最新の .NET 10 / ASP.NET Core / Blazor へ移行するための、実践的なサンプルプロジェクト集です。
+Microsoft の公式 aspnet/samples アーカイブをベースに、HttpClient、Web API、MVC、Identity、Katana ミドルウェア等を .NET Framework から最新 .NET へ移行する手順とポイント を段階的に示しています。
 <br/><br/>
-当初は TwitchIO 2.x（IRC ベース）を用いて構築されたが、現在は Twitch の最新システム EventSub WebSocket を利用するよう完全に更新済み。これにより、将来的にも安定して利用できる設計となっている。
+理論だけではなく 実際に動作する参考実装 を提供することで、開発者がモダナイゼーションの流れを理解し、よく発生する移行エラーを解決し、Minimal APIs、依存性注入 (DI)、appsettings.json による設定管理、Blazor UI コンポーネント などの 最新アーキテクチャを採用できるよう支援します。
 <br/><br/>
-AI の創造性と Twitch のインタラクティブ性を融合させ、オフライン時でも視聴者を楽しませるコンパニオンとして機能する。
+既存の業務システムを刷新するエンジニア、最新の .NET アーキテクチャを学ぶ学生、または大規模移行プロジェクトに備えるチームに最適です。
 
 ### コード
 
-[GitHub リポジトリ](https://github.com/swallace100/ChatGPT-Powered-Twitch-Bot-With-Logging)
+[GitHub リポジトリ](https://github.com/swallace100/aspdotnet-dotnet-upgrade)
 
-### 技術スタック
+### 技術スタック / Tech Stack
 
-- Python
-- OpenAI API
-- Twitch EventSub WebSocket
-- dotenv
-- Requests
-- WebSockets
+- レガシー ASP.NET (.NET Framework 4.x)
+- .NET 10 SDK & Runtime
+- ASP.NET Core 10
+- Minimal Hosting Model (Program.cs)
+- Blazor UI & Razor Components
+- HttpClient + HttpClientFactory
+- Identity の最新化
+- MVC / Web API のアップグレード
+- appsettings.json による設定管理
 
-### スクリーンショット
+### 含まれるサンプル例
 
-#### チャット応答例
+- HttpClient → 最新 HttpClientFactory パターン
+- Web API → ASP.NET Core Web API への移行 (作業中)
+- MVC5 → ASP.NET Core MVC & Razor への移行 (作業中)
+- Identity → 最新認証 & ミドルウェア構成 (作業中)
+- Katana → ASP.NET Core ミドルウェア パイプライン (作業中)
 
-<img src="images/Twitch_Chat_Bot.jpg" alt="Twitch Chat Bot" width="400"/>
 <br/><br/>
 
 ---
