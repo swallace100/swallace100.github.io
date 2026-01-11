@@ -8,7 +8,7 @@ last_modified_at: 2025-10-10
 permalink: /
 ---
 
-# Cloud, AI, & Software Projects
+# Cloud, AI, and Software Projects
 
 [日本語はこちら](#日本語版)
 
