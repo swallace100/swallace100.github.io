@@ -4,7 +4,7 @@ title: "Steven Wallace | Software Projects"
 description: "Portfolio applications designed for scalability and reliability. Features AI-driven services, distributed architectures, and automation pipelines built with Python, Rust, and React."
 image: /images/og-preview.png # ← add a 1200x630 image; place in /images
 lang: en
-last_modified_at: 2025-10-10
+last_modified_at: 2026-01-19
 permalink: /
 ---
 
